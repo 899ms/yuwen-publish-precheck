@@ -3,9 +3,9 @@
 <p>
 <img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT">
 <a href="https://github.com/yuwen-cool/yuwen-publish-precheck/actions/workflows/ci.yml"><img src="https://github.com/yuwen-cool/yuwen-publish-precheck/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-<img src="https://img.shields.io/badge/依赖-仅需%20Python%203-blue" alt="Python 3">
+<img src="https://img.shields.io/badge/依赖-仅需%20Python%203.10%2B-blue" alt="Python 3.10+">
 <img src="https://img.shields.io/badge/平台-抖音%20·%20小红书%20·%20视频号-orange" alt="平台">
-<img src="https://img.shields.io/badge/规则依据-72%20条官方原文引文-8A2BE2" alt="规则依据">
+<img src="https://img.shields.io/badge/规则依据-80%2B%20条官方原文引文-8A2BE2" alt="规则依据">
 <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs Welcome">
 </p>
 
@@ -64,7 +64,7 @@ flowchart LR
 | 能力 | 依据 |
 |---|---|
 | **误报低** | 判定尺度用 38 篇平台实际放行的真实口播稿校准：个人经历数字不拦、泛化鼓励不拦，只拦真正命中违规锚点的表达（平均每篇仅 0.8 个词面候选） |
-| **有出处** | 42 条规则全部锚定官方来源：《广告法》、网信办/卫健委专项文件、平台规则中心与社区公约，72 条原文引文带链接和核验日期，每条判定都能点开查证 |
+| **有出处** | 42 条规则全部锚定官方来源：《广告法》、网信办/卫健委专项文件、平台规则中心与社区公约，80+ 条原文引文带链接和核验日期，每条判定都能点开查证 |
 | **会辟谣** | "赚钱要写成赚米""死要写成 S"这类流传甚广的自我审查谣言，官方早已澄清——遇到会主动告诉你不用改，谐音变体反而会被平台单独盯上 |
 | **分场景** | 41 条内置检测模式按商业属性和行业三层门控：纯分享不套商业规则，不涉医疗金融不加行业规则，普通生活稿不会被"根治""收益"误伤 |
 | **拒绝对抗** | 绝不提供谐音、拆字、遮挡等绕审技巧——那是把小风险换成大风险 |
@@ -103,7 +103,7 @@ flowchart LR
 git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/skills/yuwen-publish-precheck
 ```
 
-零依赖（仅需 Python 3），完全本地运行，稿件和个人数据不上传任何第三方。
+零第三方依赖（仅需 Python 3.10+），完全本地运行，稿件和个人数据不上传任何第三方。
 
 ## 装好后的第一句话
 
@@ -142,7 +142,7 @@ git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/ski
 | 平台 | 抖音、小红书、微信视频号 | 快手 |
 | 内容 | 口播稿、文章、图文文案、字幕、标题等文本 | 封面/画面检查清单、直播带货专项 |
 | 行业 | 通用 + 医疗健康 + 金融理财（官方规则包） | 教育、母婴、美妆（按社区反馈排序） |
-| 场景 | 审核、改稿、复盘、沉淀 | 海外内容转国内适配指南 |
+| 场景 | 审核、改稿、处罚/推荐异常复盘、沉淀 | 海外内容转国内适配指南 |
 
 ## 边界（诚实声明）
 
